@@ -6,7 +6,7 @@
 }
 
 header {
-  background: #55d6aa;
+  background: #0b0C10;
 }
 
 header::after {
@@ -21,8 +21,8 @@ header::after {
   margin-top: 10px;
   padding-right: 2px;
   font-size: 50px;
-  color: #444;
-  border: solid #444 2px;
+  color: #C5C6C7;
+  border: solid #C5C6C7 2px;
   border-radius: 10px;
 }
 
@@ -45,21 +45,24 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: #C5C6C7;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
-
-nav a:hover {
-  color: #000;
+nav i {
+  color: #C5C6C7;
+  padding-right: 3px;
 }
 
+nav a:hover {
+  font-size: 1.05rem;
+}
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: #C5C6C7;
 
   position: absolute;
   top: 0;

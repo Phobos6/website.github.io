@@ -1,6 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #55d6aa;
+    background-color: #0b0C10;
 }
 .hello {
     position: relative;
@@ -14,26 +14,26 @@ body {
     color: #D2042D;
     content: '!';
     position: absolute;
-    transform: translate(0, 0);
   }
 .resumebutton{
     text-align: center;
 }
-.resumebutton a{
-    color:#444;
+/*.resumebutton a{
+    color:#C5C6C7;
     font-size: 25px;
     text-transform: uppercase;
     text-decoration: none;
-    border:solid #444 2px;
+    border:solid #C5C6C7 2px;
     border-radius: 10px;
     padding: 3px;
 }
 .resumebutton a:hover{
-    color:#000;
+    color:#3500D3;
     font-size: 26px;
     text-transform: uppercase;
     text-decoration: none;
-    border:solid #000 3px;
+    border:solid #3500D3 3px;
     border-radius: 10px;
     padding: 3px;
 }
+*/
