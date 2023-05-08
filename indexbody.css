@@ -1,17 +1,18 @@
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: #0b0C10;
+    margin-bottom: 0;
 }
 .hello {
     position: relative;
-    margin-top: 0px;
+    margin-top: 2px;
     margin-left: 50px;
     color: #FFFDD0;
     font-size: 300px;
 }
 .hello::after {
     bottom: 0;
-    color: #D2042D;
+    color: #66FCF1;
     content: '!';
     position: absolute;
   }

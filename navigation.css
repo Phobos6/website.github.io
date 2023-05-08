@@ -1,3 +1,6 @@
+/**{
+  outline: solid 2px red;
+}*/
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -32,8 +35,8 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
   list-style: none;
+  padding: 0;
 }
 
 nav li {
@@ -48,7 +51,7 @@ nav a {
   color: #C5C6C7;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;  
 }
 nav i {
   color: #C5C6C7;
@@ -56,7 +59,7 @@ nav i {
 }
 
 nav a:hover {
-  font-size: 1.05rem;
+  font-size: 22px;
 }
 nav a::before {
   content: '';
