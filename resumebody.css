@@ -38,3 +38,8 @@ body {
 .cards h1 {
     text-align: center;
 }
+.cards-container {
+    display: grid;
+    margin: 10px;
+
+}

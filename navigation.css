@@ -1,6 +1,6 @@
-/**{
+*{
   outline: solid 2px red;
-}*/
+}
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -10,6 +10,9 @@
 
 header {
   background: #0b0C10;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 header::after {
