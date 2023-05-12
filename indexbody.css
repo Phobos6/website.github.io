@@ -7,6 +7,7 @@ body {
     position: relative;
     margin-top: 2px;
     margin-left: 50px;
+    margin-bottom: 0;
     color: #FFFDD0;
     font-size: 300px;
 }
@@ -38,3 +39,26 @@ body {
     padding: 3px;
 }
 */
+
+.ex-object-fit {
+    display:flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 720px;
+    height: 540px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .ex-object-fit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .op-top img {
+    object-position: top;
+  }
+  .op-bottom img {
+    object-position: bottom;
+  }

@@ -41,5 +41,8 @@ body {
 .cards-container {
     display: grid;
     margin: 10px;
+}
 
+ul {
+    list-style: none;
 }
