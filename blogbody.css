@@ -1,0 +1,32 @@
+body {
+    background-color: #0b0C10;
+}
+.heading h1 {
+    position: -webkit-sticky;
+}
+.text {
+    font-size: 20px;
+    position: relative;
+    inline-size: 100px;
+    margin: auto;
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    color: #C5C6C7;
+}
+h1 {
+    float:left;
+    position: sticky;
+    color: #66FCF1; 
+}
+p {
+    color: #C5C6C7;
+    
+}
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: #66FCF1;
+    border: 0;
+}

@@ -3,20 +3,7 @@ body {
     background-color: #0b0C10;
     margin-bottom: 0;
 }
-.hello {
-    position: relative;
-    margin-top: 2px;
-    margin-left: 50px;
-    margin-bottom: 0;
-    color: #FFFDD0;
-    font-size: 300px;
-}
-.hello::after {
-    bottom: 0;
-    color: #66FCF1;
-    content: '!';
-    position: absolute;
-  }
+
 .resumebutton{
     text-align: center;
 }
@@ -61,4 +48,21 @@ body {
   }
   .op-bottom img {
     object-position: bottom;
+  }
+ .hello {
+    text-align: center;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    color: #C5C6C7;
+    font-size: 20px;
+    
+}
+.hello::before {
+    bottom: 0;
+    transform: translate(-390px,0);
+    color: #66FCF1;
+    content: 'Hello!';
+    position: absolute;
   }
